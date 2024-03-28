@@ -415,7 +415,7 @@ function draw(){
     else if (shapemode == "none" && outlinemode == 0 && mouseIsPressed && mode == 3 && mouseX > 5 + ptslider.value() / 2 && pmouseX > 5 + ptslider.value() / 2 && mouseY > 60 + ptslider.value() / 2 && pmouseY > 60 + ptslider.value() / 2 && mouseX < windowWidth - (5 + ptslider.value() / 2) && pmouseX < windowWidth - (5 + ptslider.value() / 2) && mouseY < windowHeight - (5 + ptslider.value() / 2) && pmouseY < windowHeight - (5 + ptslider.value() / 2)){
       stroke(outlinec)
       if (shapeoutline == 1){
-        strokeWeight(1)
+        strokeWeight(potslider.value())
       }
       else if (shapeoutline == 0){
         strokeWeight(0)
