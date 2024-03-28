@@ -1482,7 +1482,7 @@ function keyPressed(){
       }
       else if (keyCode === LEFT_ARROW && colourConfirm == "salmon"){
         outlinecolourConfirm = "black"
-        c = (0, 0, 0, opcslider.value())
+        outlinec = (0, 0, 0, opcslider.value())
       }
       else if (keyCode === UP_ARROW && colourConfirm == "salmon"){
         colourConfirm = "pink"
